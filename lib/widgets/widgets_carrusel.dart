@@ -23,7 +23,6 @@ class _CarruselState extends State<Carrusel> {
   Widget build(BuildContext context) {
     return SizedBox(
       height: _altura,
-      width: double.infinity,
       child: Container(
         color: Colors.red,
         child: Center(

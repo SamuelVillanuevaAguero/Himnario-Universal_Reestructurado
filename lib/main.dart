@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
+import 'package:himnario_universal/models/himno.dart';
 import 'package:himnario_universal/themes/temas_aplicacion.dart';
 import 'package:himnario_universal/pages/pagina_categorias.dart';
 import 'package:himnario_universal/pages/pagina_favoritos.dart';
@@ -9,7 +10,7 @@ void main() {
   runApp(_Aplicacion());
 }
 
-class _Aplicacion extends StatelessWidget {
+class _Aplicacion extends StatelessWidget {  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -72,26 +73,26 @@ class _Base extends State<Base> {
         duration: Duration(milliseconds: 1000),
         child: BottomNavigationBar(
           iconSize: 30, //Tamaño de los iconos (Inicio, Favoritos, Categorias)
-          selectedItemColor:Colors.blue, //Color de las letras al seleccionar una página
+          selectedItemColor:Colors.lightBlueAccent, //Color de las letras al seleccionar una página
           items: [
             //Inicio
             BottomNavigationBarItem(
               icon: Icon(Icons.home_outlined),
-              activeIcon: Icon(Icons.home, color: Colors.blue),
+              activeIcon: Icon(Icons.home, color: Colors.lightBlueAccent),
               label: 'Inicio',
             ),
 
             //Favoritos
             BottomNavigationBarItem(
               icon: Icon(Icons.favorite_border),
-              activeIcon: Icon(Icons.favorite, color: Colors.blue),
+              activeIcon: Icon(Icons.favorite, color: Colors.lightBlueAccent),
               label: 'Favoritos',
             ),
 
             //Categorias
             BottomNavigationBarItem(
               icon: Icon(Icons.category_outlined),
-              activeIcon: Icon(Icons.category, color: Colors.blue),
+              activeIcon: Icon(Icons.category, color: Colors.lightBlueAccent),
               label: 'Categorias',
             ),
           ],

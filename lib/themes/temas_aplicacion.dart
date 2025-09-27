@@ -13,5 +13,5 @@ ThemeData temaOscuro = ThemeData.dark().copyWith(
   //Colores de la navegación baja
   bottomNavigationBarTheme: BottomNavigationBarThemeData(
     backgroundColor: Colors.black,
-  )
+  ),
 );
