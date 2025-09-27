@@ -1,6 +1,5 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:himnario_universal/models/himno.dart';
 import 'package:himnario_universal/themes/temas_aplicacion.dart';
 import 'package:himnario_universal/pages/pagina_categorias.dart';
 import 'package:himnario_universal/pages/pagina_favoritos.dart';

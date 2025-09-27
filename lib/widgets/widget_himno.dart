@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:himnario_universal/models/himno.dart';
 
+// ignore: must_be_immutable
 class WidgetHimno extends StatefulWidget{
   Himno himno;
   WidgetHimno({super.key, required this.himno});

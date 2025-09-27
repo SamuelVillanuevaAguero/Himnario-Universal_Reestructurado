@@ -1,7 +1,4 @@
-import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:himnario_universal/models/himno.dart';
-import 'package:himnario_universal/widgets/widget_himno.dart';
 import 'package:himnario_universal/widgets/widgets_carrusel.dart';
 
 class PaginaInicio extends StatefulWidget {
